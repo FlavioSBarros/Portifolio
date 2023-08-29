@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portifolio Flavio S barros</title>
+  </head>
+  <body>
+    <div class="card">
+      <section class="profile">
+        <div class="profile__informations">
+          <div class="profile__picture"></div>
+          <h3 class="profile__name">Flavio S Barros</h3>
+          <p class="profile__job">Web Developer</p>
+          <ul class="profile__links">
+            <li>
+              <a href="" class="icons"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class="icons"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="" class="icons"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+                <a href=""class="icons" ><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="toggle">
+        <label>
+          <div class="skills__button actived__button">Skills</div>
+          <div class="projects__button deactived__button">Projetos</div>
+          <input type="checkbox" name="" id="toggle__checkbox" />
+          <span></span>
+        </label>
+      </div>
+      <section class="skills fadeIn">
+        <div class="html">
+          <h3 class="skills__html">HTML</h3>
+          <i class="fa-brands fa-html5 "></i>
+          <p class="">Intermediario</p>
+        </div>
+        <div class="css">
+          <h3 class="skills__css">CSS</h3>
+          <i class="fa-brands fa-css3-alt"></i>
+          <p class="">Intermediario</p>
+        </div>
+        <div class="js">
+          <h3 class="skills__js">JS</h3>
+          <i class="fa-brands fa-js"></i>
+          <p class="">Intermediario</p>
+        </div>
+        <div class="sap">
+          <h3 class="skills__sapui5">SAP</h3>
+          <i class="fa-brands fa-phoenix-squadron"></i>
+          <p class="">Basico</p>
+        </div>
+      </section>
+      <section class="projects fadeOut">
+        <div onclick="window.open('https://flaviosbarros.github.io/Cronometro/')"class="project_cronometro project">
+          <h3 class="project__title">Cronometro</h3>
+          <ul class="project__techs">
+            <li>
+              <p class="project__tech1">HTML</p>
+            </li>
+            <li>
+              <p class="project__tech2">CSS</p>
+            </li>
+            <li>
+              <p class="project__tech2">JS</p>
+            </li>
+          </ul>
+        </div>
+        <div onclick="window.open('https://flaviosbarros.github.io/Meus-projetos/projeto02/')"class="project_web_android project">
+          <h3 class="project__title">Web site Android</h3>
+          <ul class="project__techs">
+            <li>
+              <p class="project__tech1">HTML</p>
+            </li>
+            <li>
+              <p class="project__tech2">CSS</p>
+            </li>
+          </ul>
+        </div>
+        <div onclick="window.open('https://flaviosbarros.github.io/calculadora/')"class="project_calculadora project">
+          <h3 class="project__title">Calculadora</h3>
+          <ul class="project__techs">
+            <li>
+              <p class="project__tech1">HTML</p>
+            </li>
+            <li>
+              <p class="project__tech2">CSS</p>
+            </li>
+            <li>
+              <p class="project__tech2">JS</p>
+            </li>
+          </ul>
+        </div>
+     </section>
+    <script src="script.js"></script>
+  </body>
+</html>
